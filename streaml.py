@@ -13,7 +13,7 @@ if password_input == APP_PASSWORD:
     # tu umieszczasz całą logikę swojej aplikacji
 else:
     st.warning("❌ Złe hasło")
-st.title("QMS CAPA Dashboard")
+
 
 uploaded_file = st.file_uploader("📂 Wgraj raport Excel", type="xlsx")
 if uploaded_file:
